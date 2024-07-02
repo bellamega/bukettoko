@@ -66,12 +66,12 @@
   }
 }
 
+/* Media query untuk tampilan HP */
 @media (max-width: 768px) {
   .card {
-    flex: 0 0 calc(100% - 20px); /* Satu kartu per baris pada mobile */
+    width: calc(50% - 20px); /* Ukuran kartu untuk HP (2 kartu per baris) */
   }
 }
-
 
 
 
