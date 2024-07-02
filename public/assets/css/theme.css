@@ -62,13 +62,13 @@
 
 @media (max-width: 992px) {
   .card {
-    width: calc(50% - 20px); /* Dua kartu per baris pada tablet */
+    flex: 1 1 calc(50% - 20px); /* Dua kartu per baris pada tablet */
   }
 }
 
 @media (max-width: 768px) {
   .card {
-    width: calc(50% - 20px); /* Dua kartu per baris pada mobile */
+    flex: 1 1 calc(100% - 20px); /* Satu kartu per baris pada mobile */
   }
 }
 
