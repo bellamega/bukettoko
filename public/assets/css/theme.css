@@ -89,12 +89,12 @@
   margin-top: 10px;
 }
 
-/* Media query untuk tampilan HP */
 @media (max-width: 768px) {
-  .card {
-    width: calc(50% - 20px); /* Ukuran kartu untuk HP (2 kartu per baris) */
-  }
-}
+      .card img {
+        width: 100%; /* Pastikan gambar mengambil lebar penuh pada layar HP */
+      }
+    }
+
 
 
 
