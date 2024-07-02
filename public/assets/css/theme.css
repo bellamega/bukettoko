@@ -90,11 +90,10 @@
 }
 
 @media (max-width: 768px) {
-      .card img {
-        width: 100%; /* Pastikan gambar mengambil lebar penuh pada layar HP */
-      }
-    }
-
+  .catalog-container {
+    grid-template-columns: repeat(2, 1fr); /* Dua kolom dengan lebar yang sama */
+  }
+}
 
 
 
