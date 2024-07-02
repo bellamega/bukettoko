@@ -140,14 +140,6 @@
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
-  .card {
-    width: calc(50% - 20px); /* Mengatur lebar kartu menjadi 50% dari lebar layar dengan margin di antara kartu */
-    margin: 10px; /* Margin di antara kartu */
-  }
-}
-
-
 
 
 
