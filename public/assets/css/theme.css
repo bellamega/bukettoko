@@ -151,13 +151,19 @@
     height: auto; /* Tinggi disesuaikan agar tidak terdistorsi */
   }
 
-  /* Menyesuaikan ukuran gambar bouquet graduation */
-  .card:nth-child(4) img {
-    /* Contoh: Menyesuaikan lebar gambar agar seragam dengan gambar pada kartu lain */
-    width: 100%; /* Sesuaikan dengan nilai yang diperlukan */
-    height: auto; /* Sesuaikan dengan nilai yang diperlukan */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Mengatur jarak antar kartu */
+  }
+
+  .card {
+    width: calc(50% - 20px); /* Mengatur lebar kartu menjadi 50% dari lebar layar dengan margin di antara kartu */
+    margin-bottom: 20px; /* Margin di bawah kartu */
   }
 }
+
 
 
 
