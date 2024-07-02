@@ -55,8 +55,8 @@
 }
 
 .card {
-  width: calc(33.33% - 20px); /* Tiga kartu per baris */
-  margin: 10px;
+  flex: 1 1 calc(33.33% - 20px); /* Tiga kartu per baris */
+  margin-bottom: 20px;
   box-sizing: border-box;
 }
 
