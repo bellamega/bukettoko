@@ -140,6 +140,23 @@
   font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Mengatur jarak antar kartu */
+  }
+
+  .card {
+    width: calc(50% - 20px); /* Mengatur lebar kartu menjadi 50% dari lebar layar dengan margin di antara kartu */
+    margin-bottom: 20px; /* Margin di bawah kartu */
+  }
+
+  .card img {
+    width: 100%; /* Gambar mengambil lebar penuh dari kartu */
+    height: auto; /* Tinggi disesuaikan agar proporsi tetap terjaga */
+  }
+}
 
 
 
